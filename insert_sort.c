@@ -31,12 +31,6 @@ void insert_sort(int a[], int n){
 
 
 
-
-
-// Hàm main để test
-
-
-
 int main(){
     int n = 12;
     int a[12] = {75,70,65,84,98,78,100,93,55,61,81,68};
