@@ -24,16 +24,12 @@ void Partition(int A[], int n, int first, int last) {
         while (A[j] > c && i <= j) j--;
 
         if (i < j) {
-            printf("(f-l: %d-%d): ", first,last); 
-            printf(" | i=%d j=%d | ", i,j);
             swap(A, n, i, j);
             display(A, n);
         }
     }
 
     // Đưa pivot về đúng vị trí
-    printf("(f-l: %d-%d): ", first,last); 
-    printf(" | i=%d j=%d | ", i,j);
     swap(A, n, first, j);
     display(A, n);
 
